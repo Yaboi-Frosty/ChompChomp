@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Chomp Chomp Revised.unity
+- path: Assets/Scenes/Chomp Chomp.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
