@@ -1,16 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - BlueGateDestroy
-    - CameraFollow
     - MainMenu
-    - MovementScript
     - RedGateDestroy
-    - RunFromPlayer
-    - Runaway
-    - ScaledAttack
-    - SizeTest
-    - TinyEnemy
+    - RegisterScript
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -27,7 +20,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/Chomp Chomp.unity:
+    Assets/Scenes/Chomp Chomp Revised.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -46,15 +39,38 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 12466}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/Login.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -65,50 +81,34 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 11630}
+      Script: {instanceID: 11344}
     - Class: 114
       Script: {instanceID: 11732}
     - Class: 114
-      Script: {instanceID: 11900}
+      Script: {instanceID: 12120}
     - Class: 114
-      Script: {instanceID: 11912}
-    - Class: 114
-      Script: {instanceID: 12466}
-    - Class: 114
-      Script: {instanceID: 12556}
+      Script: {instanceID: 12308}
     - Class: 114
       Script: {instanceID: 12600}
     - Class: 114
-      Script: {instanceID: 12634}
-    - Class: 114
-      Script: {instanceID: 12880}
-    - Class: 114
-      Script: {instanceID: 12942}
-    - Class: 114
       Script: {instanceID: 12958}
     - Class: 114
-      Script: {instanceID: 12974}
+      Script: {instanceID: 20368}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
-    - Class: 195
-      Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    - Class: 238
-      Script: {instanceID: 0}
-    - Class: 258
       Script: {instanceID: 0}
     Assets/Scenes/MainMenu.unity:
     - Class: 1
@@ -196,6 +196,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12600}
     - Class: 114
       Script: {instanceID: 12958}
+    - Class: 114
+      Script: {instanceID: 20368}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -753,9 +755,16 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 1ef11f24392a4fc1ce10b2765c6c8052
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RegisterScript
   platform: 2
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Registration.unity
-  - Assets/Scenes/Chomp Chomp.unity
-  playerPath: /Users/cfrancke/Documents/GitHub/ChompChomp/Chomp Chomp/menu:register:level1.app
+  - Assets/Scenes/Login.unity
+  - Assets/Scenes/Chomp Chomp Revised.unity
+  playerPath: /Users/cfrancke/Documents/GitHub/ChompChomp/Chomp Chomp/Scenes(fixed).app

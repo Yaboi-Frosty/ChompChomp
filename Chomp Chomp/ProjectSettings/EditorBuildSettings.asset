@@ -10,8 +10,11 @@ EditorBuildSettings:
     guid: 7faf8e75f43cc43aaa59cf176c0baae4
   - enabled: 1
     path: Assets/Scenes/Registration.unity
+    guid: d3b232ae8db3248cb90684e5ac7cc7ad
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
     guid: 88f39ad84a56f4d12824c6e7eb547fc7
   - enabled: 1
-    path: Assets/Scenes/Chomp Chomp.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Chomp Chomp Revised.unity
+    guid: d1e70dd6d963a4e98880e090f4373bfa
   m_configObjects: {}

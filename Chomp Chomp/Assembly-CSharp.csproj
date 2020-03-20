@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\UI\CollectionScore.cs" />
     <Compile Include="Assets\Scripts\UI\CurrentScore.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\UI\RegisterScript.cs" />
     <Compile Include="Assets\Scripts\UI\Score.cs" />
     <Compile Include="Assets\Scripts\UI\gameover.cs" />
     <Reference Include="Unity.Timeline.Editor">
